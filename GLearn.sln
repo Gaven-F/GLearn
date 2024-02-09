@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLearn.Web", "GLearn.Web\GLearn.Web.csproj", "{0A094D51-8706-43B6-83BD-DDD62E681402}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GLearn.Web", "GLearn.Web\GLearn.Web.csproj", "{0A094D51-8706-43B6-83BD-DDD62E681402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLearn.Mappster", "GLearn.Mappster\GLearn.Mappster.csproj", "{00D7CF3A-0B3E-40C1-8AA3-D63C54266CCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0A094D51-8706-43B6-83BD-DDD62E681402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A094D51-8706-43B6-83BD-DDD62E681402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A094D51-8706-43B6-83BD-DDD62E681402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D7CF3A-0B3E-40C1-8AA3-D63C54266CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D7CF3A-0B3E-40C1-8AA3-D63C54266CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D7CF3A-0B3E-40C1-8AA3-D63C54266CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D7CF3A-0B3E-40C1-8AA3-D63C54266CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
