@@ -1,24 +1,23 @@
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-
-builder.Services.AddOpenApiDocument();
-//builder.Services.AddSwaggerDocument();
+builder.Services.AddOpenApiDocument(options =>
+{
+	options.DocumentName = "DEMO";
+	options.Version = "DEMO";
+	options.ApiGroupNames = ["DEMO"];
+});
 
 var app = builder.Build();
-
-//app.UseRouting().UseEndpoints( conf =>
-//{
-//	conf.MapControllers();
-//});
+app.UseHsts();
 app.UseOpenApi();
 app.UseSwaggerUi();
+app.MapControllers();
 
 app.UseReDoc(options =>
 {
 	options.Path = "/redoc";
 });
 
-app.UseHsts();
 
 app.Run();

@@ -1,0 +1,5 @@
+﻿@GLearn.Web_HostAddress = https://localhost:7256
+
+GET {{GLearn.Web_HostAddress}}/base/Index
+
+###
